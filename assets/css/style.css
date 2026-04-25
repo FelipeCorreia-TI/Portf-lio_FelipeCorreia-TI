@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -9,31 +11,31 @@ body{
 
 #cabecalho{
     background: #241F21 ;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding:  0;
 }
 
 
-#cabecalho nav li{              
+
+#cabecalho nav ul{
     display: flex;
     flex-direction: row; /* Transforma a lista em um display flex e coloca em linha horizontal*/ 
-    justify-content: space-between;
-    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
 }
 
-#cabecalho nav li ul{
-    padding: 0;
-    margin: 0;
+#cabecalho nav li{
+    flex-grow: 1;
+    text-align: center;
 }
 
-
-#cabecalho  nav li ul a{
+#cabecalho  nav a{
+    
     color: #4197BA; /* Da cor aos links de Nav  */
     border: #4197BA 2px solid; /* Temporário apenas para demarcar aonde cobre o link -------*/
-    padding: 38px;
-    padding-inline: 158px;
-    text-decoration-style: none;
-    text-decoration-line: none;
+    padding: 20px 40px;
+    padding-bottom: 30px;
+    padding-inline: 150px;
+    display: block;
+    text-decoration: none
 
-    
 }   

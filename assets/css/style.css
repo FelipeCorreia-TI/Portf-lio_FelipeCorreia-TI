@@ -7,10 +7,33 @@ body{
 }
 
 
-header{
+#cabecalho{
     background: #241F21 ;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
-header nav li ul a {
-    color: #4197BA;
+
+#cabecalho nav li{              
+    display: flex;
+    flex-direction: row; /* Transforma a lista em um display flex e coloca em linha horizontal*/ 
+    justify-content: space-between;
+    justify-content: center;
 }
+
+#cabecalho nav li ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+#cabecalho  nav li ul a{
+    color: #4197BA; /* Da cor aos links de Nav  */
+    border: #4197BA 2px solid; /* Temporário apenas para demarcar aonde cobre o link -------*/
+    padding: 38px;
+    padding-inline: 158px;
+    text-decoration-style: none;
+    text-decoration-line: none;
+
+    
+}   

@@ -31,11 +31,15 @@ body{
 #cabecalho  nav a{
     
     color: #4197BA; /* Da cor aos links de Nav  */
-    border: #4197BA 2px solid; /* Temporário apenas para demarcar aonde cobre o link -------*/
+   
     padding: 20px 40px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-inline: 150px;
     display: block;
-    text-decoration: none
-
+    text-decoration: none;
 }   
+
+#cabecalho nav a:hover{
+    color: #FEE45B;
+    background-color: #4197BA;
+}

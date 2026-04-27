@@ -37,9 +37,11 @@ body{
     padding-inline: 150px;
     display: block;
     text-decoration: none;
+
 }   
 
 #cabecalho nav a:hover{
     color: #FEE45B;
     background-color: #4197BA;
+    transition:0.5s
 }
